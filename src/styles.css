@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.main-card {
+    max-width: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.fortune-card {
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+.strfortune {
+    width: 500px;
+}
+
+.timestr{
+    font-size: 10px;
+}
+  
+.header-image {
+  background-image: url('https://img.icons8.com/color/48/000000/--tinder.png');
+  background-size: cover;
+}
+
+  
+.landing-image {
+  background-image: url('https://img.icons8.com/color/48/000000/--tinder.png');
+  background-size: cover;
+}
+
+
+
+.email-form-field {
+    width: auto;
+}
+
+.rel-btn{
+    margin-left:auto; 
+    margin-right:0;
+}

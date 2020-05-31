@@ -1,0 +1,13 @@
+<mat-card class="fortune-card">
+    <div mat-card-avatar class="header-image"></div>
+    <mat-label>Hi! How are you feeling?</mat-label>
+        <mat-card-actions>
+            <button mat-raised-button 
+                color="primary" 
+                routerLink="/fortune" 
+                routerLinkActive="active">
+                Reveal my fortune cookie
+            </button>
+        </mat-card-actions>
+    <mat-label class="timestr">{{now}}</mat-label>
+</mat-card>
